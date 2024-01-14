@@ -1,9 +1,13 @@
 package com.goonok.User;
 
-public class User {
+import com.goonok.Interfaces.IOOperation;
+
+public abstract class User {
     protected String name;
     protected String email;
     protected String phoneNumber;
+
+    protected IOOperation[] operation;
 
     public User(String name){
         this.name = name;
@@ -38,4 +42,6 @@ public class User {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    abstract public void menu();
 }

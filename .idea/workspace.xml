@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/UpdateBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/Interfaces/IOOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" afterDir="false" />
@@ -26,9 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2awM00mKZUnj52HD5NCY1KWSOqN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,13 +49,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -64,11 +74,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705224960915</updated>
-      <workItem from="1705224961946" duration="3016000" />
+      <workItem from="1705224961946" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
