@@ -1,10 +1,17 @@
-package com.goonok;
+package com.goonok.library;
+
+import com.goonok.DB.Database;
+import com.goonok.User.Admin;
+import com.goonok.User.Reader;
+import com.goonok.User.User;
 
 import java.util.Scanner;
 
 public class Main {
     static Scanner input ;
     public static void main(String[] args) {
+
+        Database database = new Database();
 
         input = new Scanner(System.in);
         System.out.println("Welcome to Library Management System!");
@@ -36,11 +43,13 @@ public class Main {
         System.out.println("1. Admin\n2. Reader");
         int n2 = input.nextInt();
         if (n2==1){
+            User admin = new Admin(name, email, phoneNumber);
 
         }else if(n2==2){
+            User reader = new Reader(name, email, phoneNumber);
 
         }else {
-            System.out.println("No Valied choice");
+            System.out.println("No Valid choice");
         }
     }
 

@@ -1,4 +1,4 @@
-package com.goonok.library;
+package com.goonok.User;
 
 public class User {
     protected String name;
