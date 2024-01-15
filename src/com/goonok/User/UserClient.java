@@ -18,7 +18,7 @@ public class UserClient {
         if (userIndex != -1){
             User user = database.getUser(userIndex);
             System.out.println(user.getName()+" Login Success!");
-            user.menu();
+            user.menu(database, user);
         }else {
             System.out.println("Login Failed!");
         }

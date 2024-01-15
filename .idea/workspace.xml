@@ -4,24 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/DB/UpdateBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/Interfaces/IOOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/Exit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewOrder.java" afterDir="false" />
+    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Creating the Admin Features classes">
+      <change afterPath="$PROJECT_DIR$/data/Books" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Users" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/BorrowBok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/CalculateFine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/PlaceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/ReturnBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/DeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/UpdateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/UpdateBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/Interfaces/IOOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/Interfaces/IOOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/ViewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +61,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -75,11 +84,25 @@
       <option name="presentableId" value="Default" />
       <updated>1705224960915</updated>
       <workItem from="1705224961946" duration="2000" />
+      <workItem from="1705284307871" duration="3769000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating the Admin Features classes">
+      <option name="closed" value="true" />
+      <created>1705262736175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705262736176</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating the Admin Features classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the Admin Features classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

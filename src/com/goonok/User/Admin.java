@@ -28,12 +28,19 @@ public class Admin extends User{
     public Admin(String name, String email, String phoneNumber) {
         super(name, email, phoneNumber);
         this.operation = new IOOperation[]{
-                new AddBook()
+                new ViewBook(),
+                new AddBook(),
+                new Delete(),
+                new UpdateBook(),
+                new DeleteAll(),
+                new Search(),
+                new ViewOrder(),
+                new Exit()
         };
     }
 
     @Override
-    public void menu() {
+    public void menu(Database database, User user) {
         System.out.println("1. View Book List");
         System.out.println("2. Add Book List");
         System.out.println("3. Delete Book");
@@ -47,7 +54,7 @@ public class Admin extends User{
         int n = input.nextInt();
         /// TODO - operations are not correct
         /// TODO - 2nd video from YouTube 3 and half minutes
-        this.operation[n-1].oper();
+        this.operation[n-1].oper(database, user);
 
     }
 }

@@ -1,5 +1,6 @@
 package com.goonok.User;
 
+import com.goonok.DB.Database;
 import com.goonok.Interfaces.IOOperation;
 
 public abstract class User {
@@ -43,5 +44,5 @@ public abstract class User {
         this.phoneNumber = phoneNumber;
     }
 
-    abstract public void menu();
+    abstract public void menu(Database database, User user);
 }

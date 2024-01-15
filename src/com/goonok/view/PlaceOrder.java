@@ -1,9 +1,10 @@
-package com.goonok.DB;
+package com.goonok.view;
 
+import com.goonok.DB.Database;
 import com.goonok.Interfaces.IOOperation;
 import com.goonok.User.User;
 
-public class Delete implements IOOperation {
+public class PlaceOrder implements IOOperation {
     @Override
     public void oper(Database database, User user) {
 
