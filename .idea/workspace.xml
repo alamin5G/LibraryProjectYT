@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Creating the Admin Features classes">
-      <change afterPath="$PROJECT_DIR$/data/Books" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Users" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/BorrowBok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/CalculateFine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/PlaceOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/goonok/view/ReturnBook.java" afterDir="false" />
+    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="creating the booklist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/DeleteAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/DeleteBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/UpdateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/UpdateBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/Interfaces/IOOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/Interfaces/IOOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/library/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/Exit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/ViewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alami\IdeaProjects\LibraryProjectYT\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,7 +66,9 @@
       <option name="presentableId" value="Default" />
       <updated>1705224960915</updated>
       <workItem from="1705224961946" duration="2000" />
-      <workItem from="1705284307871" duration="3769000" />
+      <workItem from="1705284307871" duration="4057000" />
+      <workItem from="1705288615630" duration="16000" />
+      <workItem from="1705423444857" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the Admin Features classes">
       <option name="closed" value="true" />
@@ -94,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705262736176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creating the booklist">
+      <option name="closed" value="true" />
+      <created>1705288576266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705288576266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +94,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the Admin Features classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the Admin Features classes" />
+    <MESSAGE value="creating the booklist" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the booklist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
