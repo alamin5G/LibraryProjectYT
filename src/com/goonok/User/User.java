@@ -45,4 +45,7 @@ public abstract class User {
     }
 
     abstract public void menu(Database database, User user);
+
+    ///TODO - START FROM 3RD VIDEO 1:45
+    abstract public String toString();
 }

@@ -50,4 +50,10 @@ public class Reader extends User{
         int n = input.nextInt();
         this.operation[n-1].oper(database, user);
     }
+
+    @Override
+    public String toString() {
+        String text = name + "<N/>" + email + "<N/>" + phoneNumber + "<N/>" + "Reader";
+        return text;
+    }
 }

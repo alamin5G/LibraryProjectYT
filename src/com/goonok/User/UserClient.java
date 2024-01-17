@@ -38,10 +38,12 @@ public class UserClient {
         if (n2==1){
             User admin = new Admin(name, email, phoneNumber);
             database.addUser(admin);
+            admin.menu(database, admin);
             System.out.println("New Librarian Account Created");
         }else if(n2==2){
             User reader = new Reader(name, email, phoneNumber);
             database.addUser(reader);
+            reader.menu(database, reader);
             System.out.println("New Reader Account Created");
         }else {
             System.out.println("No Valid choice");

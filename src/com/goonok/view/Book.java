@@ -106,5 +106,13 @@ public class Book {
                 ", brwcopies=" + brwcopies +
                 '}';
     }
+
+    public String toStrings(){
+        String text = name + "<N/>" + author + "<N/>" + publisher + "<N/>" + address + "<N/>"
+                + String.valueOf(qty) + "<N>" + String.valueOf(price) + "<N/>" + String.valueOf(brwcopies);
+        return text;
+    }
+
+
 }
 

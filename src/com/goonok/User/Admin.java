@@ -57,4 +57,10 @@ public class Admin extends User{
         this.operation[n-1].oper(database, user);
 
     }
+
+    @Override
+    public String toString() {
+        String text = name + "<N/>" + email + "<N/>" + phoneNumber + "<N/>" + "Admin";
+        return text;
+    }
 }

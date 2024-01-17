@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="creating the booklist">
+    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Updated the User features">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +46,19 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alami\IdeaProjects\LibraryProjectYT\src" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
   </component>
@@ -65,46 +70,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705224960915</updated>
-      <workItem from="1705224961946" duration="2000" />
-      <workItem from="1705284307871" duration="4057000" />
-      <workItem from="1705288615630" duration="16000" />
-      <workItem from="1705423444857" duration="598000" />
+      <workItem from="1705224961946" duration="3016000" />
+      <workItem from="1705479619724" duration="869000" />
+      <workItem from="1705491809502" duration="7027000" />
     </task>
-    <task id="LOCAL-00001" summary="Creating the Admin Features classes">
-      <option name="closed" value="true" />
-      <created>1705262736175</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1705262736176</updated>
-    </task>
-    <task id="LOCAL-00002" summary="creating the booklist">
-      <option name="closed" value="true" />
-      <created>1705288576266</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705288576266</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating the Admin Features classes" />
-    <MESSAGE value="creating the booklist" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the booklist" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.NoSuchElementException" package="java.util" />
-          <option name="timeStamp" value="21" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
