@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Updated the User features">
+    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Updated the book and user db file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Books" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Users" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +71,28 @@
       <workItem from="1705224961946" duration="3016000" />
       <workItem from="1705479619724" duration="869000" />
       <workItem from="1705491809502" duration="7027000" />
+      <workItem from="1705519681651" duration="113000" />
+      <workItem from="1705550675814" duration="1428000" />
+      <workItem from="1705555027214" duration="302000" />
+      <workItem from="1705580475258" duration="341000" />
+      <workItem from="1705647726985" duration="412000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated the book and user db file">
+      <option name="closed" value="true" />
+      <created>1705519765279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705519765279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated the book and user db file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the book and user db file" />
   </component>
 </project>

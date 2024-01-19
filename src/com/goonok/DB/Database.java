@@ -3,13 +3,11 @@ package com.goonok.DB;
 import com.goonok.User.Admin;
 import com.goonok.User.Reader;
 import com.goonok.User.User;
-import com.goonok.library.Main;
 import com.goonok.view.Book;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Database {
 
@@ -43,6 +41,7 @@ public class Database {
             }
         }
         getUsers();
+        getBooks();
     }
 
     public void addUser(User user){
@@ -71,7 +70,7 @@ public class Database {
     public void addBook(Book book){
         bookList.add(book);
         bookName.add(book.getName());
-
+        saveBooks();
     }
 
     private void getUsers(){
@@ -101,7 +100,6 @@ public class Database {
                     addUser(user);
                 }
             }
-
         }
     }
 
@@ -125,7 +123,7 @@ public class Database {
     private void saveBooks(){
         String text1 = "";
         for(Book book : bookList){
-            text1 = text1 + book.toString() + "<NewBook/>\n";
+            text1 = text1 + book.toStrings() + "<NewBook/>\n";
         }
         try{
             PrintWriter pw = new PrintWriter(booksFile);
@@ -177,4 +175,9 @@ public class Database {
         return book;
     }
 
+    ///TODO - PART-4 1:35 MIN
+    public List<Book> getAllBooks()
+    {
+        return bookList;
+    }
 }
