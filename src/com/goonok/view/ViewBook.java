@@ -12,7 +12,7 @@ public class ViewBook implements IOOperation {
     public void oper(Database database, User user) {
 
         List<Book> books = database.getAllBooks();
-        System.out.println("Name\tAuthor\tPublisher\tCollection Location\tStatus\tQty\tPrice\tBorrowing Copies");
+        System.out.println("Name\tAuthor\tPublisher\tLocation\tStatus\tQty\tPrice\tBrw Cpy");
 
         ///TODO - PART-4 2:33 MINS
 

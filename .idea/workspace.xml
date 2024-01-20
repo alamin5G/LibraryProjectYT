@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Updated the book and user db file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/AddBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
+    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Updated the view book and user db file">
       <change beforePath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/ViewBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Books" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Users" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <workItem from="1705550675814" duration="1428000" />
       <workItem from="1705555027214" duration="302000" />
       <workItem from="1705580475258" duration="341000" />
-      <workItem from="1705647726985" duration="412000" />
+      <workItem from="1705647726985" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the book and user db file">
       <option name="closed" value="true" />
@@ -85,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705519765279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated the view book and user db file">
+      <option name="closed" value="true" />
+      <created>1705648259420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705648259421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated the book and user db file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the book and user db file" />
+    <MESSAGE value="Updated the view book and user db file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the view book and user db file" />
   </component>
 </project>
