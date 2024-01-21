@@ -295,6 +295,16 @@ public class Database {
         return u;
     }
 
+    public boolean userExists(String name){
+        boolean f = false;
+        for(User user: users){
+            if(user.getName().matches(name)){
+                f = true;
+            }
+        }
+        return f;
+    }
+
     public Order parseOrder(String s){
         String[] a = s.split("<N/>");
 
@@ -370,6 +380,11 @@ public class Database {
     }
 
     public void returnBook(Borrow b, Book book, int i) {
-        ///TODO - PART-6 13:00
+        borrowList.remove(b);
+        bookList.set(i, book);
+        saveBorrows();
+        saveBooks();
     }
+
+    ///TODO - 4:12 PART-7
 }
