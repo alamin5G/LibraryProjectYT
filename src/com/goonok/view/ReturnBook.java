@@ -15,8 +15,27 @@ public class ReturnBook implements IOOperation {
         String bookName = input.nextLine();
         if(!database.getBorrowList().isEmpty()){
             for(Borrow b : database.getBorrowList()){
-                ///TODO PART-6 11:57 minutes
+                if(b.getBook().getName().matches(bookName) &&
+                b.getUser().getName().matches(user.getName())){
+                    Book book = b.getBook();
+                    int i = database.getAllBooks().indexOf(book);
+                    if (b.getDaysLeft()<0){
+                        System.out.println("You are late!" +
+                                "You have to pay" +
+                                 +Math.abs(b.getDaysLeft()*5)+ "as fine");
+                    }
+                    book.setBrwcopies(book.getBrwcopies()+1);
+                    database.returnBook(b, book, i);
+                    System.out.println("Book returned! Thanks");
+                    break;
+                }else {
+                    System.out.println("You didn't borrow this book");
+                }
             }
+        }else {
+            System.out.println("You didn't borrow this book");
         }
+
+        user.menu(database, user);
     }
 }

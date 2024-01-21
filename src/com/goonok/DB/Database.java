@@ -368,4 +368,8 @@ public class Database {
     public List<Borrow> getBorrowList(){
         return borrowList;
     }
+
+    public void returnBook(Borrow b, Book book, int i) {
+        ///TODO - PART-6 13:00
+    }
 }
