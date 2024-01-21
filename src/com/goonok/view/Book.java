@@ -108,9 +108,8 @@ public class Book {
     }
 
     public String toStrings(){
-        String text = name + "<N/>" + author + "<N/>" + publisher + "<N/>" + address + "<N/>"
-                + String.valueOf(qty) + "<N>" + String.valueOf(price) + "<N/>" + String.valueOf(brwcopies);
-        return text;
+        return name + "<N/>" + author + "<N/>" + publisher + "<N/>" + address + "<N/>"
+                + String.valueOf(qty) + "<N/>" + String.valueOf(price) + "<N/>" + String.valueOf(brwcopies);
     }
 
 

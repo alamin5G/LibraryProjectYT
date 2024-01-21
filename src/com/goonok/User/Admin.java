@@ -16,7 +16,7 @@ public class Admin extends User{
         this.operation = new IOOperation[]{
                 new ViewBook(),
                 new AddBook(),
-                new Delete(),
+                new DeleteBook(),
                 new UpdateBook(),
                 new DeleteAll(),
                 new Search(),
@@ -30,7 +30,7 @@ public class Admin extends User{
         this.operation = new IOOperation[]{
                 new ViewBook(),
                 new AddBook(),
-                new Delete(),
+                new DeleteBook(),
                 new UpdateBook(),
                 new DeleteAll(),
                 new Search(),
