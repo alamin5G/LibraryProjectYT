@@ -26,10 +26,10 @@ public class Database {
     ///TODO - change the code from 13:00 from part-2
 
    // private File userFile = new File(Main.class.getClassLoader().getResource("data/Books").getFile());
-    private final File userFile = new File("C:\\LibraryMS\\Data\\Users");
-    private final File booksFile = new File("C:\\LibraryMS\\Data\\Books");
-    private final File borrowFiles = new File("C:\\LibraryMS\\Data\\Borrows");
-    private final File orderFiles = new File("C:\\LibraryMS\\Data\\Orders");
+    private final File userFile     = new File("C:\\LibraryMS\\Data\\Users");
+    private final File booksFile    = new File("C:\\LibraryMS\\Data\\Books");
+    private final File borrowFiles  = new File("C:\\LibraryMS\\Data\\Borrows");
+    private final File orderFiles   = new File("C:\\LibraryMS\\Data\\Orders");
 
     public Database() {
         File folder = new File("C:\\LibraryMS\\Data");
@@ -300,6 +300,7 @@ public class Database {
         for(User user: users){
             if(user.getName().matches(name)){
                 f = true;
+                break;
             }
         }
         return f;

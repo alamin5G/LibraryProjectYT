@@ -29,25 +29,33 @@ public class UserClient {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter name");
         String name = in.next();
-        System.out.println("Enter PhoneNumber: ");
-        String phoneNumber = in.next();
-        System.out.println("Enter email");
-        String email = in.next();
-        System.out.println("1. Admin\n2. Reader");
-        int n2 = in.nextInt();
-        if (n2==1){
-            User admin = new Admin(name, email, phoneNumber);
-            database.addUser(admin);
-            admin.menu(database, admin);
-            System.out.println("New Librarian Account Created");
-        }else if(n2==2){
-            User reader = new Reader(name, email, phoneNumber);
-            database.addUser(reader);
-            reader.menu(database, reader);
-            System.out.println("New Reader Account Created");
+        if(!database.userExists(name)){
+            System.out.println("Enter PhoneNumber: ");
+            String phoneNumber = in.next();
+            System.out.println("Enter email");
+            String email = in.next();
+            System.out.println("1. Admin\n2. Reader");
+            int n2 = in.nextInt();
+            if (n2==1){
+                User admin = new Admin(name, email, phoneNumber);
+                database.addUser(admin);
+                System.out.println("New Librarian Account Created");
+                admin.menu(database, admin);
+            }else if(n2==2){
+                User reader = new Reader(name, email, phoneNumber);
+                database.addUser(reader);
+                System.out.println("New Reader Account Created");
+                reader.menu(database, reader);
+
+            }else {
+                System.out.println("No Valid choice");
+            }
+
         }else {
-            System.out.println("No Valid choice");
+            System.out.println("User already exist!");
+            return;
         }
+
     }
 
 }

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="Updated the view book and user db file">
+    <list default="true" id="6d6c59e0-6fd6-48d3-929f-1918beeaf169" name="Changes" comment="updating all files except ReturnBook.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/DB/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/Borrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/Borrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/CalculateFine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/CalculateFine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/User/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/goonok/view/BorrowBok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/goonok/view/BorrowBok.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +39,45 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
-      </set>
-    </attachedChunks>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alami\IdeaProjects\LibraryProjectYT\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.goonok.library.Main" />
+      <module name="LibraryProjectYT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goonok.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,40 +87,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705224960915</updated>
-      <workItem from="1705224961946" duration="3016000" />
-      <workItem from="1705479619724" duration="869000" />
-      <workItem from="1705491809502" duration="7027000" />
-      <workItem from="1705519681651" duration="113000" />
-      <workItem from="1705550675814" duration="1428000" />
-      <workItem from="1705555027214" duration="302000" />
-      <workItem from="1705580475258" duration="341000" />
-      <workItem from="1705647726985" duration="679000" />
+      <workItem from="1705224961946" duration="2000" />
+      <workItem from="1705284307871" duration="4057000" />
+      <workItem from="1705288615630" duration="16000" />
+      <workItem from="1705423444857" duration="598000" />
+      <workItem from="1705746990692" duration="6900000" />
+      <workItem from="1705765589793" duration="532000" />
+      <workItem from="1705766141389" duration="1963000" />
+      <workItem from="1705790791548" duration="11287000" />
+      <workItem from="1705805236810" duration="758000" />
     </task>
-    <task id="LOCAL-00001" summary="Updated the book and user db file">
+    <task id="LOCAL-00001" summary="Creating the Admin Features classes">
       <option name="closed" value="true" />
-      <created>1705519765279</created>
+      <created>1705262736175</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1705519765279</updated>
+      <updated>1705262736176</updated>
     </task>
-    <task id="LOCAL-00002" summary="Updated the view book and user db file">
+    <task id="LOCAL-00002" summary="creating the booklist">
       <option name="closed" value="true" />
-      <created>1705648259420</created>
+      <created>1705288576266</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1705648259421</updated>
+      <updated>1705288576266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updating all files except ReturnBook.java">
+      <option name="closed" value="true" />
+      <created>1705803610425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705803610425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated the book and user db file" />
-    <MESSAGE value="Updated the view book and user db file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the view book and user db file" />
+    <MESSAGE value="Creating the Admin Features classes" />
+    <MESSAGE value="creating the booklist" />
+    <MESSAGE value="updating all files except ReturnBook.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating all files except ReturnBook.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

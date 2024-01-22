@@ -60,7 +60,6 @@ public class Admin extends User{
 
     @Override
     public String toString() {
-        String text = name + "<N/>" + email + "<N/>" + phoneNumber + "<N/>" + "Admin";
-        return text;
+        return name + "<N/>" + email + "<N/>" + phoneNumber + "<N/>" + "Admin";
     }
 }

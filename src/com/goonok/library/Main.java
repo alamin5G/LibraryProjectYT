@@ -11,7 +11,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         while (true){
-
             System.out.println("0. Exit \n1. Login\n2.New User");
             int n = input.nextInt();
             switch (n){
